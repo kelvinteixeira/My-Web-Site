@@ -1,5 +1,4 @@
 import {
-  Box,
   Button,
   Fade,
   Grid,
@@ -23,31 +22,31 @@ export function Header() {
       <Grid container alignItems="center" justifyContent="space-evenly">
         <Grid item>
           <Button size="small">
-            <Typography variant="overline" color="#fff">
+            <Styled.HeaderTypography variant="overline" color="#fff">
               Home
-            </Typography>
+            </Styled.HeaderTypography>
           </Button>
         </Grid>
 
         <Grid item>
           <Button size="small">
-            <Typography variant="overline" color="#fff">
+            <Styled.HeaderTypography variant="overline" color="#fff">
               About me
-            </Typography>
+            </Styled.HeaderTypography>
           </Button>
         </Grid>
         <Grid item>
           <Button size="small">
-            <Typography variant="overline" color="#fff">
+            <Styled.HeaderTypography variant="overline" color="#fff">
               My projects
-            </Typography>
+            </Styled.HeaderTypography>
           </Button>
         </Grid>
         <Grid item>
           <Button size="small">
-            <Typography variant="overline" color="#fff">
+            <Styled.HeaderTypography variant="overline" color="#fff">
               Skills
-            </Typography>
+            </Styled.HeaderTypography>
           </Button>
         </Grid>
 
@@ -62,7 +61,7 @@ export function Header() {
               target="_blank"
               aria-label="instagram"
             >
-              <AiOutlineInstagram color="#fff" />
+              <AiOutlineInstagram className="header-icons" />
             </IconButton>
           </Tooltip>
           <Tooltip
@@ -75,7 +74,7 @@ export function Header() {
               target="_blank"
               aria-label="linkedin"
             >
-              <AiOutlineLinkedin color="#fff" />
+              <AiOutlineLinkedin className="header-icons" />
             </IconButton>
           </Tooltip>
 
@@ -89,7 +88,7 @@ export function Header() {
               target="_blank"
               aria-label="github"
             >
-              <AiOutlineGithub color="#fff" />
+              <AiOutlineGithub className="header-icons" />
             </IconButton>
           </Tooltip>
 
@@ -104,7 +103,7 @@ export function Header() {
               }
               aria-label="email"
             >
-              <AiOutlineMail color="#fff" />
+              <AiOutlineMail className="header-icons" />
             </IconButton>
           </Tooltip>
 
@@ -118,7 +117,7 @@ export function Header() {
               target="_blank"
               aria-label="whatsapp"
             >
-              <AiOutlineWhatsApp color="#fff" />
+              <AiOutlineWhatsApp className="header-icons" />
             </IconButton>
           </Tooltip>
         </Grid>
