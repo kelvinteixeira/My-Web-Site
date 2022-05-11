@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Grid, IconButton, Typography } from "@mui/material";
+import { Avatar, Box, Grid, IconButton, Typography } from "@mui/material";
 import MyImage from "../../../../assets/MyImage.jpg";
 import * as Styled from "./AboutMe.styles";
 
@@ -11,7 +11,7 @@ export function AboutMe() {
           <Typography
             className="name-tittle"
             variant="h5"
-            marginBottom={1}
+            marginBottom={3}
             color="#fff"
             fontSize="40px"
           >
@@ -25,7 +25,7 @@ export function AboutMe() {
           <Typography
             variant="body1"
             marginTop={1}
-            marginBottom={1}
+            marginBottom={3}
             color="#fff"
           >
             Twenty-eight year old, Brazilian, Student, Front-end Developer,
@@ -34,7 +34,7 @@ export function AboutMe() {
           </Typography>
         </Grid>
 
-        <Grid item paddingLeft={2} paddingRight={2}>
+        <Grid item paddingLeft={2} paddingRight={2} marginBottom={2}>
           <Typography variant="body2" align="center" marginTop={2} color="#fff">
             <i>
               "Words are, in my not so humble opinion, our most inexhaustible
@@ -52,6 +52,16 @@ export function AboutMe() {
           >
             Albus Dumbledore.
           </Typography>
+        </Grid>
+
+        <Grid item textAlign="center" marginBottom={8}>
+          <Grid container alignItems="center" justifyContent="space-evenly">
+            <Styled.StyledAvatarLanguages src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+            <Styled.StyledAvatarLanguages src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+            <Styled.StyledAvatarLanguages src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
+            <Styled.StyledAvatarLanguages src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" />
+            <Styled.StyledAvatarLanguages src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+          </Grid>
         </Grid>
       </Grid>
     </Styled.Container>
