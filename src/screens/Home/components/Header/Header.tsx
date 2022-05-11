@@ -108,7 +108,7 @@ export function Header() {
           </Tooltip>
 
           <Tooltip
-            title="Lets chating"
+            title="Let's chatting"
             TransitionComponent={Fade}
             TransitionProps={{ timeout: 600 }}
           >
