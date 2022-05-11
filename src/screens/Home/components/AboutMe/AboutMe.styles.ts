@@ -4,8 +4,7 @@ import { Avatar, Box, Grid } from "@mui/material";
 export const Container = styled(Box)`
   display: grid;
   align-items: center;
-  width: 35rem;
-  height: 100vh;
+  max-width: 35rem;
   margin: 0 auto;
   padding: 2rem;
 `;

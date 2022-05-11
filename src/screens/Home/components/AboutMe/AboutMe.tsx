@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, IconButton, Typography } from "@mui/material";
+import { Box, Grid, IconButton, Typography } from "@mui/material";
 import MyImage from "../../../../assets/MyImage.jpg";
 import * as Styled from "./AboutMe.styles";
 import {
@@ -24,50 +24,15 @@ export function AboutMe() {
           >
             Kelvin Teixeira Santos
           </Typography>
-          <Styled.StyledAvatar alt="Joao" src={MyImage} />
-
-          <Typography variant="h6" marginTop={1} color="#fff">
-            Student, Front-end Developer & Gamer
-          </Typography>
         </Grid>
 
-        <Grid item textAlign="center" justifyContent="space-evenly">
-          <IconButton
-            href="https://www.instagram.com/kelvinteixeira_/"
-            target="_blank"
-            aria-label="instagram"
-          >
-            <AiOutlineInstagram color="#fff" />
-          </IconButton>
-          <IconButton
-            href="https://www.linkedin.com/in/kelvin-teixeira-8707b41a8/"
-            target="_blank"
-            aria-label="linkedin"
-          >
-            <AiOutlineLinkedin color="#fff" />
-          </IconButton>
-          <IconButton
-            href="https://github.com/kelvinteixeira"
-            target="_blank"
-            aria-label="linkedin"
-          >
-            <AiOutlineGithub color="#fff" />
-          </IconButton>
+        <Grid item textAlign="center">
+          <Styled.StyledAvatar alt="Kelvin" src={MyImage} />
 
-          <IconButton
-            onClick={() => window.open("mailto:kelvin.teixeira.dev@gmail.com")}
-            aria-label="email"
-          >
-            <AiOutlineMail color="#fff" />
-          </IconButton>
-
-          <IconButton
-            href="https://api.whatsapp.com/send?phone=5583996157313"
-            target="_blank"
-            aria-label="whatsapp"
-          >
-            <AiOutlineWhatsApp color="#fff" />
-          </IconButton>
+          <Typography variant="h6" marginTop={1} color="#fff">
+            28 year old, living in Campina Grande/Paraíba-Brazil. Student,
+            Front-end Developer & Gamer
+          </Typography>
         </Grid>
 
         <Grid item>
