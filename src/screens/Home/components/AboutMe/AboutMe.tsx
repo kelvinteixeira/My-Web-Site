@@ -2,13 +2,6 @@ import React from "react";
 import { Box, Grid, IconButton, Typography } from "@mui/material";
 import MyImage from "../../../../assets/MyImage.jpg";
 import * as Styled from "./AboutMe.styles";
-import {
-  AiOutlineLinkedin,
-  AiOutlineInstagram,
-  AiOutlineGithub,
-  AiOutlineMail,
-  AiOutlineWhatsApp,
-} from "react-icons/ai";
 
 export function AboutMe() {
   return (
@@ -29,13 +22,19 @@ export function AboutMe() {
         <Grid item textAlign="center">
           <Styled.StyledAvatar alt="Kelvin" src={MyImage} />
 
-          <Typography variant="h6" marginTop={1} color="#fff">
-            28 year old, living in Campina Grande/Paraíba-Brazil. Student,
-            Front-end Developer & Gamer
+          <Typography
+            variant="body1"
+            marginTop={1}
+            marginBottom={1}
+            color="#fff"
+          >
+            Twenty-eight year old, Brazilian, Student, Front-end Developer,
+            Dreamer, Potterhead & Gamer. Waiting for my turn to reach the top of
+            the world to enjoy the most beautiful view and rest in peace.
           </Typography>
         </Grid>
 
-        <Grid item>
+        <Grid item paddingLeft={2} paddingRight={2}>
           <Typography variant="body2" align="center" marginTop={2} color="#fff">
             <i>
               "Words are, in my not so humble opinion, our most inexhaustible
