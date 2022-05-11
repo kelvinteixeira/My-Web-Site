@@ -58,7 +58,7 @@ export function Header() {
             TransitionProps={{ timeout: 600 }}
           >
             <IconButton
-              href="https://www.instagram.com/kelvinteixeira_/"
+              href={String(import.meta.env.VITE_INSTAGRAM_LINK)}
               target="_blank"
               aria-label="instagram"
             >
@@ -71,7 +71,7 @@ export function Header() {
             TransitionProps={{ timeout: 600 }}
           >
             <IconButton
-              href="https://www.linkedin.com/in/kelvin-teixeira-8707b41a8/"
+              href={String(import.meta.env.VITE_LINKEDIN_LINK)}
               target="_blank"
               aria-label="linkedin"
             >
@@ -85,9 +85,9 @@ export function Header() {
             TransitionProps={{ timeout: 600 }}
           >
             <IconButton
-              href="https://github.com/kelvinteixeira"
+              href={String(import.meta.env.VITE_GITHUB_LINK)}
               target="_blank"
-              aria-label="linkedin"
+              aria-label="github"
             >
               <AiOutlineGithub color="#fff" />
             </IconButton>
@@ -100,7 +100,7 @@ export function Header() {
           >
             <IconButton
               onClick={() =>
-                window.open("mailto:kelvin.teixeira.dev@gmail.com")
+                window.open(String(import.meta.env.VITE_EMAIL_LINK))
               }
               aria-label="email"
             >
@@ -109,12 +109,12 @@ export function Header() {
           </Tooltip>
 
           <Tooltip
-            title="Thats my whatsApp"
+            title="Lets chating"
             TransitionComponent={Fade}
             TransitionProps={{ timeout: 600 }}
           >
             <IconButton
-              href="https://api.whatsapp.com/send?phone=5583996157313"
+              href={String(import.meta.env.VITE_WHATSAPP_LINK)}
               target="_blank"
               aria-label="whatsapp"
             >
