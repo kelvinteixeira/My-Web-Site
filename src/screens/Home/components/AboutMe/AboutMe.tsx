@@ -16,6 +16,7 @@ export function AboutMe() {
       <Grid container alignItems="center" justifyContent="center">
         <Grid item textAlign="center">
           <Typography
+            className="name-tittle"
             variant="h5"
             marginBottom={1}
             color="#fff"

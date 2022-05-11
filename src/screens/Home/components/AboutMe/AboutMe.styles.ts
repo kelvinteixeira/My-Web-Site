@@ -7,6 +7,7 @@ export const Container = styled(Box)`
   width: 35rem;
   height: 100vh;
   margin: 0 auto;
+  padding: 2rem;
 `;
 
 export const StyledAvatar = styled(Avatar)`

@@ -11,3 +11,23 @@
 body {
   background-image: url('./assets/Background.jpg');
 }
+
+.name-tittle {
+  width: 25rem;
+  animation: typing 3s steps(25), blink .4s infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  40% {
+    border-color: rgba(255, 255, 2555, 0.2);
+  }
+}
