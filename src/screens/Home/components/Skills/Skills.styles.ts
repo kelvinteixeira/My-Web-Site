@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { Avatar, Box } from "@mui/material";
+import HtmlImg from '../../../../assets/html.svg'
 
 export const Container = styled(Box)`
   display: grid;
@@ -9,7 +10,10 @@ export const Container = styled(Box)`
   padding: 2rem;
 `;
 
-
-export const StyledAvatarLanguages = styled(Avatar)`
-  margin: 1rem;
+export const CardImg = styled.img`
+  display: grid;
+  margin: 0 auto;
+  width: 7rem;
+  height: 7rem;
+  margin-top: 1rem;
 `;
