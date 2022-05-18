@@ -15,13 +15,14 @@ import {
   AiOutlineMail,
   AiOutlineWhatsApp,
 } from "react-icons/ai";
+import { animateScroll as scroll } from "react-scroll";
 
 export function Header() {
   return (
     <Styled.Container>
       <Grid container alignItems="center" justifyContent="space-evenly">
         <Grid item>
-          <Button size="small">
+          <Button size="small" onClick={() => scroll.scrollTo(0)}>
             <Styled.HeaderTypography variant="overline" color="#fff">
               Home
             </Styled.HeaderTypography>
@@ -29,23 +30,23 @@ export function Header() {
         </Grid>
 
         <Grid item>
-          <Button size="small">
+          <Button size="small" onClick={() => scroll.scrollTo(150)}>
             <Styled.HeaderTypography variant="overline" color="#fff">
               About me
             </Styled.HeaderTypography>
           </Button>
         </Grid>
         <Grid item>
-          <Button size="small">
+          <Button size="small" onClick={() => scroll.scrollTo(850)}>
             <Styled.HeaderTypography variant="overline" color="#fff">
-              My projects
+              Skills
             </Styled.HeaderTypography>
           </Button>
         </Grid>
         <Grid item>
-          <Button size="small">
+          <Button size="small" onClick={() => scroll.scrollTo(1050)}>
             <Styled.HeaderTypography variant="overline" color="#fff">
-              Skills
+              My projects
             </Styled.HeaderTypography>
           </Button>
         </Grid>
