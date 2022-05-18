@@ -7,7 +7,7 @@ export const Container = styled(Box)`
   max-width: 35rem;
   margin: 0 auto;
   padding: 2rem;
-  margin-bottom: 8rem;
+  margin-bottom: 1.4rem;
 `;
 
 export const StyledAvatar = styled(Avatar)`

@@ -27,6 +27,7 @@ export function AboutMe() {
             marginTop={1}
             marginBottom={3}
             color="#fff"
+            fontSize="20px"
           >
             Twenty-eight year old, Brazilian, Student, Front-end Developer,
             Dreamer, Potterhead & Gamer. Waiting for my turn to reach the top of
@@ -35,7 +36,13 @@ export function AboutMe() {
         </Grid>
 
         <Grid item paddingLeft={2} paddingRight={2} marginBottom={2}>
-          <Typography variant="body2" align="center" marginTop={2} color="#fff">
+          <Typography
+            variant="body2"
+            align="center"
+            marginTop={2}
+            color="#fff"
+            fontSize="15px"
+          >
             <i>
               "Words are, in my not so humble opinion, our most inexhaustible
               source of magic. Capable of both inflicting injury, and remedying
@@ -49,19 +56,10 @@ export function AboutMe() {
             marginBottom={1}
             marginTop={1}
             color="#fff"
+            fontSize="15px"
           >
             Albus Dumbledore.
           </Typography>
-        </Grid>
-
-        <Grid item textAlign="center" marginBottom={8}>
-          <Grid container alignItems="center" justifyContent="space-evenly">
-            <Styled.StyledAvatarLanguages src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
-            <Styled.StyledAvatarLanguages src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
-            <Styled.StyledAvatarLanguages src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
-            <Styled.StyledAvatarLanguages src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" />
-            <Styled.StyledAvatarLanguages src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-          </Grid>
         </Grid>
       </Grid>
     </Styled.Container>
