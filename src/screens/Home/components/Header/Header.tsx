@@ -44,7 +44,7 @@ export function Header() {
           </Button>
         </Grid>
         <Grid item>
-          <Button size="small" onClick={() => scroll.scrollTo(1050)}>
+          <Button size="small" onClick={() => scroll.scrollTo(1300)}>
             <Styled.HeaderTypography variant="overline" color="#fff">
               My projects
             </Styled.HeaderTypography>
