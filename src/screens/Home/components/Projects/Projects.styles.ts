@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Avatar, Box } from "@mui/material";
+import { Avatar, Box, IconButton } from "@mui/material";
 
 
 export const Container = styled(Box)`
@@ -109,4 +109,12 @@ export const CardText = styled(Box)`
   text-transform: uppercase;
   text-align: center;
 }
+`;
+
+export const TopButton = styled(IconButton)`
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+  color: white;
 `;
