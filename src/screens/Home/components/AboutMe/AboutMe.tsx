@@ -1,6 +1,6 @@
 import React from "react";
 import { Avatar, Box, Grid, IconButton, Typography } from "@mui/material";
-import MyImage from "../../../../assets/MyImage.jpg";
+import MyImage from "../../../../assets/MyImage.png";
 import * as Styled from "./AboutMe.styles";
 
 export function AboutMe() {

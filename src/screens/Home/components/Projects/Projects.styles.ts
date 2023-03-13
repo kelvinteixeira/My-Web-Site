@@ -29,7 +29,7 @@ export const Card = styled(Box)`
   background-position: center;
   filter: grayscale(.4);
   color: #000;
-  transition: .5s ease-in-out;
+  transition: .5s ease-in-out ;
 }
 
 :hover img {

@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
-import { Avatar, Box } from "@mui/material";
-import HtmlImg from '../../../../assets/html.svg'
+import { Box } from "@mui/material";
 
 export const Container = styled(Box)`
   display: grid;
